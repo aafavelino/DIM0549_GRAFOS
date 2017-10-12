@@ -59,11 +59,12 @@ void Grafo::bfs(int v) {
 	}
 }
 
+
+
 int main(int argc, char const *argv[])
 {
 	
     Grafo graph(4);
-
     graph.addAresta(0,1);
     graph.addAresta(0,3);
     graph.addAresta(1,2);
